@@ -1,0 +1,73 @@
+/* static/style.css */
+
+/* Set a background color for the page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; /* Remove default margin for the body */
+  padding: 40px;
+  background-color: #f2f2f2;
+}
+
+/* Center the content horizontally */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"], button {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover, button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Style the copy button */
+button.copy-button {
+  background-color: #28a745;
+}
+
+button.copy-button:hover {
+  background-color: #218838;
+}
